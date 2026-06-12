@@ -56,8 +56,9 @@ nav {
   position: relative; min-height: 100vh; display: flex; align-items: flex-end;
   overflow: hidden; padding-bottom: 80px;
 }
-#hero video {
+#hero-bg {
   position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  background-image: url('img/bologna-1.jpg'); background-size: cover; background-position: center;
 }
 .hero-overlay {
   position: absolute; inset: 0;
@@ -402,10 +403,7 @@ footer {
 
 <!-- HERO -->
 <section id="hero">
-  <!-- Sostituisci con il tuo video -->
-  <video autoplay muted playsinline loop>
-    <source src="" type="video/mp4"/>
-  </video>
+  <div id="hero-bg" style="position:absolute;inset:0;background-image:url('img/bologna-1.jpg');background-size:cover;background-position:center;"></div>
   <div class="hero-overlay"></div>
   <div class="hero-overlay-2"></div>
   <div class="hero-content">
@@ -498,12 +496,7 @@ footer {
   <div class="about-inner">
     <div style="position:relative">
       <div class="about-img-wrap">
-        <!-- Sostituisci con foto sede/team -->
-        <div class="about-img-placeholder">
-          <svg width="64" height="64" viewBox="0 0 80 80" fill="none" stroke="#8CB820" stroke-width="1.2" opacity=".3">
-            <path d="M10 70V35L40 10l30 25v35H50V50H30v20z"/>
-          </svg>
-        </div>
+        <img src="img/bologna-2.jpg" alt="Bologna" />
       </div>
       <div class="about-badge-corner">
         <span class="big">40+</span>
@@ -545,10 +538,7 @@ footer {
 
 <!-- SERVICES -->
 <section id="services">
-  <!-- Sostituisci src con il tuo video -->
-  <video class="services-bg" autoplay muted playsinline loop>
-    <source src="" type="video/mp4"/>
-  </video>
+  <div class="services-bg" style="position:absolute;inset:0;background-image:url('img/bologna-3.jpg');background-size:cover;background-position:center;"></div>
   <div class="services-overlay"></div>
   <div class="services-inner">
     <div class="section-head">
@@ -611,10 +601,7 @@ footer {
 <!-- BAND -->
 <section id="band">
   <div class="band-bg"></div>
-  <!-- Sostituisci src con il tuo video -->
-  <video autoplay muted playsinline loop>
-    <source src="" type="video/mp4"/>
-  </video>
+  <div style="position:absolute;inset:0;background-image:url('img/bologna-4.jpg');background-size:cover;background-position:center;opacity:0.3;"></div>
   <div class="band-content">
     <div class="band-eyebrow">Il nostro impegno</div>
     <h2 class="band-title">Ogni immobile merita<br/><em>l'attenzione giusta</em></h2>
@@ -717,10 +704,7 @@ footer {
 <!-- COME LAVORIAMO -->
 <section id="come-lavoriamo">
   <div class="cl-video-side">
-    <!-- Sostituisci src con il tuo video -->
-    <video autoplay muted playsinline loop>
-      <source src="" type="video/mp4"/>
-    </video>
+    <div style="position:absolute;inset:0;background-image:url('img/bologna-5.jpg');background-size:cover;background-position:center;"></div>
     <div class="cl-video-overlay"></div>
   </div>
   <div class="cl-content">
